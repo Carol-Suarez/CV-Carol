@@ -11,7 +11,7 @@ body{
 
 header{
     display: flex;
-    background-color: rgb(245, 133, 189);
+    background-color: rgba(245, 133, 189, 0.5);
     height: 150px; 
     border-radius: 15px;
     margin-bottom: 15px;
@@ -27,20 +27,18 @@ header h2 {
     position: relative;
     left: 110%;
     font-weight:normal;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
+    text-align: center;
 }
 
 header img {
     width: 100%;
     height: 100%;
-    border-radius: 15px;
+    border-radius: 50px;
     background-color: white;  
     justify-content: flex-start;
-}
+    margin-left: 50px;}
 
-.foto { 
-    border-radius: 5px;
-}
 
 header h1:hover{
     transform:scale(1.5,1.5);
@@ -53,11 +51,10 @@ main{
 }
 
 .contacto {
-    display: flex;
     width: 30%;
-    height: 1100px;
-    background-color: rgb(253, 234, 246);
+    background-color: rgba(253, 234, 246, 0.7);
     border-radius: 15px;
+   
 }
 
 
@@ -65,40 +62,74 @@ main{
     height: 65px;
     width: 65px;
     position: relative;
-    top: 100px;
-    left: -220px;
+    top: 0;
+    left: 20px;
    }
-
-.contacto div h2 {
-    width: 250px;
-    position: relative;
-    left: 20%;
-    margin-bottom: 60px;
+main h2 {
+    width: 100%;
     font-size: 30px;
-    /* background-color: yellow; */
+    margin-bottom: 30px;
+    margin-top: 50px;
+    text-align: center;
+   
 }
 
-.contacto div h3 {
+.contacto h3 {
     position: relative;
     width: 100%;
-    top: 30px;
-    left: -140px;
-    /* background-color: yellow; */
+    left: 110px;
+    top: -70px
 }
 
-.contacto div a {
+.contacto a {
     position: relative;
     width: 100%;
-    top: 70px;
-    left: -200px;
+    top: -30px;
+    left: 10%;
     margin-right: 25px;
     font-size: 20px;
-    /* background-color: yellow; */
+}
+
+.contacto p {
+    position: relative;
+    bottom: 25px;
 }
 
 p{
-    /*   */
-    width: 650px;
     text-align: justify;
+    font-size: 20px;
+    padding: 30px;
+}
+
+.Habilidades{
+    border: solid 3px rgb(245, 176, 188);
+    border-radius: 10px;
+    height: 30px;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    top: -55px;
+    background: rgb(157,255,249);
+    background: linear-gradient(90deg, rgba(157,255,249,1) 0%, rgba(157,255,249,1) 89%, rgba(253,234,246,1) 96%, rgba(253,234,246,1) 100%);
+}
+   
+.Habilidades.Top {
+    background: rgb(157,255,249);
+}
+
+.Habilidades.Dev {
+    background: rgb(157,255,249);
+background: linear-gradient(90deg, rgba(157,255,249,1) 0%, rgba(157,255,249,1) 8%, rgba(253,234,246,1) 9%, rgba(253,234,246,1) 100%);
+}
+
+.perfil {
+ 
+   width: 70%;
+   
+}
+
+.perfil h2 {
+    text-align: center;
+    width: 100%;0
 }
 
