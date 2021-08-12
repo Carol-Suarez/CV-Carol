@@ -6,8 +6,9 @@ body{
     width: 1150px;
     height: 1500px;
     margin-left: 200px;
-
 }
+
+/*--------header------------*/
 
 header{
     display: flex;
@@ -45,10 +46,20 @@ header h1:hover{
     color: white;
 }
 
+/*--------main------------*/
+
 main{
     display: flex;
-    
 }
+
+main h2 {
+    width: 100%;
+    font-size: 30px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+ /* ----------main contacto---------------*/
 
 .contacto {
     width: 30%;
@@ -56,23 +67,13 @@ main{
     border-radius: 15px;
    
 }
-
-
 .contacto img {
     height: 65px;
     width: 65px;
     position: relative;
     top: 0;
     left: 20px;
-   }
-main h2 {
-    width: 100%;
-    font-size: 30px;
-    margin-bottom: 30px;
-    margin-top: 50px;
-    text-align: center;
-   
-}
+   } 
 
 .contacto h3 {
     position: relative;
@@ -90,25 +91,20 @@ main h2 {
     font-size: 20px;
 }
 
-.contacto p {
-    position: relative;
-    bottom: 25px;
+.contacto p{
+    padding-left: 15px;
+    font-size: 20px;
 }
 
-p{
-    text-align: justify;
-    font-size: 20px;
-    padding: 30px;
-}
+/*------------------main professional-------------*/
 
 .Habilidades{
-    border: solid 3px rgb(245, 176, 188);
+    border: solid 3px rgb(253, 207, 215);
     border-radius: 10px;
     height: 30px;
     width: 90%;
     position: relative;
     left: 5%;
-    top: -55px;
     background: rgb(157,255,249);
     background: linear-gradient(90deg, rgba(157,255,249,1) 0%, rgba(157,255,249,1) 89%, rgba(253,234,246,1) 96%, rgba(253,234,246,1) 100%);
 }
@@ -121,6 +117,7 @@ p{
     background: rgb(157,255,249);
 background: linear-gradient(90deg, rgba(157,255,249,1) 0%, rgba(157,255,249,1) 8%, rgba(253,234,246,1) 9%, rgba(253,234,246,1) 100%);
 }
+/*--------------------main perfil-------------*/
 
 .perfil {
  
@@ -130,6 +127,33 @@ background: linear-gradient(90deg, rgba(157,255,249,1) 0%, rgba(157,255,249,1) 8
 
 .perfil h2 {
     text-align: center;
-    width: 100%;0
+    width: 100%;
 }
+
+.perfil li{
+    width: 100%;
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+/*------------------main Training----------------------*/
+
+.Training ul,h4
+{
+    color: #9c9c9c
+}
+
+
+
+/*-----------------main professional-------------------*/
+
+.professional{
+    text-align: justify;
+    font-size: 20px;
+    padding: 30px;
+}
+
+
 
