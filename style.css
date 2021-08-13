@@ -2,6 +2,13 @@
     font-family: 'Roboto', sans-serif;
 }
 
+@media screen and (max-width: 600px){
+    .contenido, .perfil {
+        width: 100%;
+    }
+}
+
+
 body{
     width: 1150px;
     height: 1500px;
@@ -12,33 +19,34 @@ body{
 
 header{
     display: flex;
+    top: 0px;
+    width: 1150px;
     background-color: rgba(245, 133, 189, 0.5);
     height: 150px; 
     border-radius: 15px;
     margin-bottom: 15px;
     margin-top: 30px;
+    justify-content: flex-start;
+
 }
 
-header h1 {
-    position: relative;
-    left: 90%;
+.intro{
+    width: 80%;
+    justify-content: center;
+    text-align: center;
 }
+]
 
-header h2 {
-    position: relative;
-    left: 110%;
-    font-weight:normal;
+header h2{
+    font-weight:lighter;
     margin-bottom: 25px;
     text-align: center;
 }
 
-header img {
-    width: 100%;
+header div img {
     height: 100%;
-    border-radius: 50px;
-    background-color: white;  
-    justify-content: flex-start;
-    margin-left: 50px;}
+    border-radius: 70px;
+    margin-left: 40%;}
 
 
 header h1:hover{
@@ -50,6 +58,7 @@ header h1:hover{
 
 main{
     display: flex;
+
 }
 
 main h2 {
@@ -63,8 +72,9 @@ main h2 {
 
 .contacto {
     width: 30%;
-    background-color: rgba(253, 234, 246, 0.7);
+    background-color: rgba(252, 198, 233, 0.7);
     border-radius: 15px;
+    padding-bottom: 35px;
    
 }
 .contacto img {
@@ -93,7 +103,16 @@ main h2 {
 
 .contacto p{
     padding-left: 15px;
-    font-size: 20px;
+    font-size: 20px;    
+}
+
+.contacto h2{
+    padding-top: 10px;
+}
+
+.contacto .H{
+    padding-top: 50px;
+    padding-bottom: 40px;
 }
 
 /*------------------main professional-------------*/
@@ -115,13 +134,14 @@ main h2 {
 
 .Habilidades.Dev {
     background: rgb(157,255,249);
-background: linear-gradient(90deg, rgba(157,255,249,1) 0%, rgba(157,255,249,1) 8%, rgba(253,234,246,1) 9%, rgba(253,234,246,1) 100%);
+    background: linear-gradient(90deg, rgba(157,255,249,1) 0%, rgba(157,255,249,1) 8%, rgba(253,234,246,1) 9%, rgba(253,234,246,1) 100%);
 }
 /*--------------------main perfil-------------*/
 
 .perfil {
  
    width: 70%;
+   padding-left: 25px;
    
 }
 
@@ -145,15 +165,51 @@ background: linear-gradient(90deg, rgba(157,255,249,1) 0%, rgba(157,255,249,1) 8
     color: #9c9c9c
 }
 
+.Training ul,li
+{
+    line-height: 5px;
+    
+}
+
+.contacto.H p
+{
+    line-height: 5px;
+    color: red;
+    font-weight: bold;
+    
+}
 
 
 /*-----------------main professional-------------------*/
 
+
 .professional{
     text-align: justify;
     font-size: 20px;
-    padding: 30px;
+    padding: 0 30px;
+    color: black;
+    line-height: 25px;
+}
+
+.list li{
+    line-height: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #9c9c9c;
+    font-weight:bold;
 }
 
 
+/*------------------Footer---------------------------------*/
+
+footer{
+    
+    background-color: rgba(245, 133, 189, 0.5);
+    height: 80px; 
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
 
