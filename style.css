@@ -32,6 +32,14 @@
 }
 
 
+@media (min-width: 500px){
+    header h1:hover{
+        transform:scale(1.5,1.5);
+        color: white;}
+
+}
+
+
 body{
     width: 100vw;
     height: 100vh; 
@@ -70,10 +78,6 @@ header div img {
     border-radius: 70px;
     left: 10%;}
 
-
-header h1:hover{
-    transform:scale(1.5,1.5);
-    color: white;}
 
 .foto{
 width: 150px;
