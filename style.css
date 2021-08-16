@@ -2,32 +2,45 @@
     font-family: 'Roboto', sans-serif;
 }
 
-@media screen and (max-width: 600px){
-    .contenido, .perfil {
-        width: 100%;
+@media (max-width: 500px){
+    main{
+       flex-direction: column;
+
     }
+
+    main .contacto{
+        width: 100%;
+        height: 100%;       
+    }
+
+    main .perfil {
+        width: 100%;  
+    }
+
+    header {
+        width: 100%;
+        padding: 0 5%
+    }
+    
 }
 
 
 body{
-    width: 1150px;
-    height: 1500px;
-    margin-left: 200px;
+    width: 100vw;
+    height: 100vh; 
+    position: relative;
 }
 
 /*--------header------------*/
 
 header{
     display: flex;
-    top: 0px;
-    width: 1150px;
+    position: relative;
+    width: 90%;
     background-color: rgba(245, 133, 189, 0.5);
     height: 150px; 
     border-radius: 15px;
     margin-bottom: 15px;
-    margin-top: 30px;
-    justify-content: flex-start;
-
 }
 
 .intro{
@@ -35,7 +48,7 @@ header{
     justify-content: center;
     text-align: center;
 }
-]
+
 
 header h2{
     font-weight:lighter;
@@ -44,9 +57,11 @@ header h2{
 }
 
 header div img {
+    position: relative;
     height: 100%;
+    width: 90%;
     border-radius: 70px;
-    margin-left: 40%;}
+    left: 10%;}
 
 
 header h1:hover{
@@ -58,67 +73,63 @@ header h1:hover{
 
 main{
     display: flex;
-
+  
 }
 
 main h2 {
     width: 100%;
-    font-size: 30px;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    font-size: 28px;
     text-align: center;
 }
  /* ----------main contacto---------------*/
 
 .contacto {
     width: 30%;
+    height: 100%;
     background-color: rgba(252, 198, 233, 0.7);
-    border-radius: 15px;
-    padding-bottom: 35px;
-   
-}
-.contacto img {
-    height: 65px;
-    width: 65px;
-    position: relative;
+    border-radius: 15px; 
+    padding-bottom: 4%;
+    position: sticky;
     top: 0;
-    left: 20px;
+}
+
+.contacto img {
+    height: 13%;
+    width: 13%;
+    position: relative;
+    left: 10%;
+    top: -30px;
    } 
 
 .contacto h3 {
     position: relative;
-    width: 100%;
-    left: 110px;
-    top: -70px
-}
+    left: 25%;
+    top: -70px;
+    width: 65%;
+    margin: 5px;
+    }
 
 .contacto a {
     position: relative;
-    width: 100%;
-    top: -30px;
-    left: 10%;
+    top: -40px;
+    left: 13%;
     margin-right: 25px;
     font-size: 20px;
 }
 
 .contacto p{
     padding-left: 15px;
-    font-size: 20px;    
+    font-size: 20px; 
 }
 
 .contacto h2{
-    padding-top: 10px;
-}
-
-.contacto .H{
-    padding-top: 50px;
-    padding-bottom: 40px;
+    margin: 45px 0 70px;
 }
 
 /*------------------main professional-------------*/
 
 .Habilidades{
-    border: solid 3px rgb(253, 207, 215);
+    border: solid 2px white;
     border-radius: 10px;
     height: 30px;
     width: 90%;
@@ -134,82 +145,65 @@ main h2 {
 
 .Habilidades.Dev {
     background: rgb(157,255,249);
-    background: linear-gradient(90deg, rgba(157,255,249,1) 0%, rgba(157,255,249,1) 8%, rgba(253,234,246,1) 9%, rgba(253,234,246,1) 100%);
+    background: linear-gradient(90deg, rgba(157,255,249,1) 0%, rgba(157,255,249,1) 15%, rgba(253,234,246,1) 17%, rgba(253,234,246,1) 100%);
 }
 /*--------------------main perfil-------------*/
 
 .perfil {
- 
-   width: 70%;
-   padding-left: 25px;
-   
+   justify-content: center;
+   width: 60%;
 }
 
 .perfil h2 {
     text-align: center;
-    width: 100%;
-}
-
-.perfil li{
-    width: 100%;
-    font-size: 25px;
-    margin-bottom: 30px;
-    margin-top: 50px;
-    font-weight: bold;
-}
-
-/*------------------main Training----------------------*/
-
-.Training ul,h4
-{
-    color: #9c9c9c
-}
-
-.Training ul,li
-{
-    line-height: 5px;
-    
-}
-
-.contacto.H p
-{
-    line-height: 5px;
-    color: red;
-    font-weight: bold;
-    
+    width: 100%;    
+    margin: 45px 0;
 }
 
 
-/*-----------------main professional-------------------*/
+.perfil h3 {
+    font-size: 20px;
+    padding: 0 5%;
+    text-align: justify;
+}
+
+.perfil h3 span {
+    font-size: 15px;
+    color: #9c9c9c; ;
+}
+
+.perfil p {
+    padding: 0 5%;
+}
+
+.perfil h4 {
+    color: #9c9c9c;
+    padding: 0 8%;
+    font-size: 16px;
+}
+
 
 
 .professional{
     text-align: justify;
     font-size: 20px;
-    padding: 0 30px;
     color: black;
     line-height: 25px;
 }
 
-.list li{
+.experience{
+    margin: 45px 0;
+}
+
+.experience h4{
     line-height: 5px;
     font-weight: bold;
     font-size: 20px;
     color: #9c9c9c;
     font-weight:bold;
+    text-align: justify;
 }
 
 
-/*------------------Footer---------------------------------*/
 
-footer{
-    
-    background-color: rgba(245, 133, 189, 0.5);
-    height: 80px; 
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 15px;
-}
 
