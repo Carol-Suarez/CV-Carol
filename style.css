@@ -22,6 +22,10 @@
         width: 100%;
         padding: 0 5%
     }
+
+    header .foto {
+        left: 0;
+    }
     
 }
 
@@ -67,8 +71,16 @@ header div img {
 
 header h1:hover{
     transform:scale(1.5,1.5);
-    color: white;
+    color: white;}
+
+.foto{
+width: 150px;
+height: 90%;
+position: relative;
+left: 5%;
+top: 5%;
 }
+
 
 /*--------main------------*/
 
