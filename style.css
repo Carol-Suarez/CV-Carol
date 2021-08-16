@@ -174,7 +174,7 @@ main h2 {
 }
 
 .perfil p {
-    padding: 0 5%;
+    padding: 0 7%;
 }
 
 .perfil h4 {
@@ -185,11 +185,12 @@ main h2 {
 
 
 
-.professional{
+.perfil .professional{
     text-align: justify;
     font-size: 20px;
     color: black;
     line-height: 25px;
+    padding: 0 5%;
 }
 
 .experience{
