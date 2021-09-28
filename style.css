@@ -145,6 +145,10 @@ main h2 {
     margin: 45px 0 70px;
 }
 
+div h3 .correo{
+    font-size: 10px;
+}
+
 /*------------------main professional-------------*/
 
 .Habilidades{
@@ -224,7 +228,4 @@ main h2 {
     font-weight:bold;
     text-align: justify;
 }
-
-
-
 
