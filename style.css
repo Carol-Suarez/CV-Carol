@@ -226,6 +226,6 @@ div h3 .correo{
     font-size: 20px;
     color: #9c9c9c;
     font-weight:bold;
-    text-align: justify;
+    justify-content: justify;
 }
 
